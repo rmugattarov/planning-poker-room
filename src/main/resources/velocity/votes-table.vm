@@ -1,7 +1,7 @@
 <div>
 <table>
 #foreach($userName in $votes.keySet())
-<tr><td>$userName</td><td>
+<tr><td><span class="userName">$userName</span></td><td><span class="vote">
 #if($revealVotes && $votes.get($userName))
     $votes.get($userName)
 #{else}
@@ -10,7 +10,7 @@
     #{else}&#9675;
     #end
 #end
-</td></tr>
+</span></td></tr>
 #end
 </table>
 </div>

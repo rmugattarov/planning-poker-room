@@ -9,7 +9,8 @@
 </head>
 <body>
 <div id="rootContainer">
-<div id="voteStatus"></div>
+<table><tr><td>
+<div id="voteStatus"></div></td><td>
 <div id="voteFormDiv">
 <form id="voteForm" action="vote" method="post">
 <input name="vote" list="storyPoints" required="required">
@@ -41,6 +42,7 @@
 <input type="submit" value="CLEAR LIST">
 </form>
 </div>
+</td></tr>
 </div>
 </body>
 </html>

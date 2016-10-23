@@ -22,10 +22,8 @@ public class App {
     private static boolean revealVotes = false;
 
     public static void main(String[] args) {
-        port(getHerokuAssignedPort());
-        get("/hello", (req, res) -> "Hello Heroku World");
-
         Spark.staticFileLocation("/public");
+        port(getHerokuAssignedPort());
 
         get("/", (request, response) -> {
             String userName = request.cookie("userName");
