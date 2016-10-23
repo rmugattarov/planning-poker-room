@@ -12,6 +12,11 @@ body {
     font-family: "Verdana";
     font-size: 150%;
 }
+.welcomeText {
+    color: Gainsboro;
+    font-family: "Verdana";
+    font-size: 150%;
+}
 .vote {
     font-size: 150%;
     color: DeepSkyBlue;

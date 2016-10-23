@@ -8,10 +8,10 @@
 <body>
 <div id="rootContainer">
     <form id="userNameForm" action="introduce" method="post">
-        Welcome to Planning Poker!:<br>
-        Please introduce yourself:<br>
+        <span class="welcomeText">Welcome to Planning Poker!<br>
+        Please introduce yourself:</span><br>
         <input type="text" name="userName" required="required">
-        <input type="submit">
+        <input type="submit" value="GO">
     </form>
 </div>
 </body>
