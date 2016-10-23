@@ -5,6 +5,7 @@
     <title>Planning Poker</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+    <script src="jquery.cookie.js"></script>
     <script src="script.js"></script>
 </head>
 <body>
