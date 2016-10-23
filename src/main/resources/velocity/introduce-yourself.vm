@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Planning Poker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="rootContainer">
+    <form id="userNameForm" action="introduce" method="post">
+        Welcome to Planning Poker!:<br>
+        Please introduce yourself:<br>
+        <input type="text" name="userName" required="required">
+        <input type="submit">
+    </form>
+</div>
+</body>
+</html>

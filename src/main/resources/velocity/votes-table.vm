@@ -1,0 +1,16 @@
+<div>
+<table>
+#foreach($userName in $votes.keySet())
+<tr><td>$userName</td><td>
+#if($revealVotes && $votes.get($userName))
+    $votes.get($userName)
+#{else}
+    #if($votes.get($userName))
+        &#10003;
+    #{else}&#9675;
+    #end
+#end
+</td></tr>
+#end
+</table>
+</div>

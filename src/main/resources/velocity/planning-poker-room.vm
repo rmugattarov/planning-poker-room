@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Planning Poker</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+<div id="rootContainer">
+<div id="voteStatus"></div>
+<div id="voteFormDiv">
+<form id="voteForm" action="vote" method="post">
+<input name="vote" list="storyPoints" required="required">
+<datalist id="storyPoints">
+  <option value="0">
+  <option value="0.5">
+  <option value="1">
+  <option value="2">
+  <option value="3">
+  <option value="5">
+  <option value="8">
+  <option value="13">
+</datalist>
+<input type="submit" value="VOTE">
+</form>
+</div>
+<div>
+<form id="revealButton" action="revealVotes" method="post">
+<input type="submit" value="REVEAL VOTES">
+</form>
+</div>
+<div>
+<form id="newVote" action="newVote" method="post">
+<input type="submit" value="NEW VOTE">
+</form>
+</div>
+<div>
+<form id="clearList" action="clearList" method="post">
+<input type="submit" value="CLEAR LIST">
+</form>
+</div>
+</div>
+</body>
+</html>
