@@ -1,16 +1,19 @@
-<div>
-<table>
-#foreach($userName in $votes.keySet())
-<tr><td><span class="userName">$userName</span></td><td><span class="vote">
-#if($revealVotes && $votes.get($userName))
-    $votes.get($userName)
-#{else}
-    #if($votes.get($userName))
-        &#10003;
-    #{else}&#9675;
-    #end
-#end
-</span></td></tr>
-#end
-</table>
+<div id="votesTable">
+    <table>
+        #foreach($userName in $votes.keySet())
+            <tr>
+                <td>$userName</td>
+                <td><span class="vote">
+                    #if($revealVotes && $votes.get($userName))
+                        $votes.get($userName)
+                    #{else}
+                        #if($votes.get($userName))
+                            &#10003;
+                        #{else}&#9675;
+                        #end
+                    #end
+</span></td>
+            </tr>
+        #end
+    </table>
 </div>

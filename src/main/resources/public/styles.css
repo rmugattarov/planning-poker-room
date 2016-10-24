@@ -1,33 +1,17 @@
 body {
-    background-color: DimGrey;
+    background-color: DarkGrey;
+    font-family: Verdana;
+    font-size: 250%;
+    color: Azure;
 }
-#rootContainer {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.userName {
-    color: Gainsboro;
-    font-family: "Verdana";
-    font-size: 150%;
-}
-.welcomeText {
-    color: Gainsboro;
-    font-family: "Verdana";
-    font-size: 150%;
+input {
+    font-size: 200%;
+    text-align: left;
+    width: 8em;
+    color: Azure;
+    background-color: Gray ;
+    border: none;
 }
 .vote {
-    font-size: 150%;
-    color: DeepSkyBlue;
-    font-family: "Verdana";
-}
-input, select {
-    color: Gainsboro;
-    background-color: DimGrey;
-    width: 70%;
-    height: 4em;
-    font-size: 100%;
-    font-family: "Verdana";
-    box-sizing: border-box;
+    color: SkyBlue;
 }
