@@ -1,1 +1,1 @@
-web: java -jar target/planning-poker-room.jar
+web: java -jar target/planning-poker-room-jar-with-dependencies.jar
