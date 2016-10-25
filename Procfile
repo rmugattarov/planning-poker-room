@@ -1,0 +1,1 @@
+web: java -jar target/planning-poker-room.jar
